@@ -1,4 +1,6 @@
 <?php
+
+session_start();
 include('./config.php');
 include('common/navbar.php');
 
@@ -18,6 +20,7 @@ $possesseurs = $stmt->fetchAll(PDO::FETCH_ASSOC);
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" href="css/gererCS.css">
     <title>Possesseurs de la carte</title>
 </head>
 <body>

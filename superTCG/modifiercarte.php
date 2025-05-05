@@ -73,6 +73,7 @@ if (isset($_POST['submit'])) {
 <head>
     <meta charset="UTF-8">
     <title>Modifier une carte</title>
+    <link rel="stylesheet" href="css/gererCS.css">
 </head>
 <body class="container">
     <div>
