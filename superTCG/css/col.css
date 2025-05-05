@@ -1,0 +1,68 @@
+body {
+    background-color: #0a0a0a;
+    color: #00ff9d;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    color: #00ff9d;
+    text-shadow: 0 0 10px #00ff9d;
+    margin-bottom: 40px;
+}
+
+.carte {
+    background: linear-gradient(145deg, #0e0e0e, #1a1a1a);
+    border: 1px solid #00ffcc55;
+    box-shadow: 0 0 15px #00ffcc33;
+    padding: 15px;
+    margin: 20px;
+    display: inline-block;
+    width: 280px;
+    border-radius: 12px;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.carte:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px #00ff9d;
+}
+
+.carte img {
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.carte h2 {
+    color: #00ff9d;
+    text-shadow: 0 0 5px #00ff9d;
+}
+
+.carte p {
+    color: #cceee8;
+    font-size: 0.95em;
+    text-align: left;
+}
+
+.rarete-legendaire {
+    color: #ffd700;
+    text-shadow: 0 0 5px #ffd700aa;
+}
+
+.rarete-epique {
+    color: #9932cc;
+    text-shadow: 0 0 5px #9932ccaa;
+}
+
+.rarete-rare {
+    color: #1e90ff;
+    text-shadow: 0 0 5px #1e90ffaa;
+}
+
+.rarete-commun {
+    color: #999;
+}

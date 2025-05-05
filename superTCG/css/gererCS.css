@@ -1,0 +1,105 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #0f0f0f, #1a1a1a);
+    color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: auto;
+}
+
+h1.titre,
+h1 {
+    text-align: center;
+    color: #00ff9d;
+    text-shadow: 0 0 8px #00ff9d;
+    margin-bottom: 30px;
+}
+
+
+form {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 255, 231, 0.1);
+    margin-bottom: 40px;
+}
+
+form label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+form input[type="text"],
+form input[type="number"],
+form input[type="file"],
+form textarea,
+form select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    backdrop-filter: blur(6px);
+    outline: none;
+}
+
+form input[type="submit"] {
+    margin-top: 20px;
+    background: rgba(0, 255, 231, 0.2);
+    color: #00ff9d;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease, box-shadow 0.3s ease;
+}
+
+form input[type="submit"]:hover {
+    background-color: rgba(0, 255, 231, 0.4);
+    box-shadow: 0 0 10px #00ff9d;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(6px);
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 255, 231, 0.1);
+}
+
+th, td {
+    padding: 12px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    text-align: center;
+}
+
+th {
+    background-color: rgba(0, 255, 231, 0.1);
+    color: #00ff9d;
+    text-shadow: 0 0 4px #00ff9d;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, 0.03);
+}
+
+a {
+    color: #00ff9d;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #00ff9d;
+}

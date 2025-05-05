@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color:rgb(0, 0, 0);
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    color:#00ff9d;
+}
+div {
+    text-align: center;
+    padding-top: 100px;
+    color: white;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    background-color: #00ff9d;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+}
+
+p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
